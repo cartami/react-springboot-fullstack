@@ -35,7 +35,7 @@ const AddCar = () => {
         }
         
     }
-
+    //fetches the data needed to auto-fill form information when using the update button
     useEffect(() => {
 
         CarService.getCarById(id).then((response) =>{
@@ -45,7 +45,7 @@ const AddCar = () => {
         }).catch(error => {
             console.log(error)
         })
-    }, [])
+    }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
     const title = () => {
 
