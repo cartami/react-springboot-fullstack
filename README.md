@@ -11,7 +11,8 @@
 
 ### App Summary:
 
-I grabbed the recall data and vehicle images using two CarMD API endpoints. I was able to render the images using card components with the input of a vehicle VIN number.
+JDM Vehicle database to add all your favorite cars from Japan.
+If you are a car enthusiast, then at some point, you may have come across really cool cars for Japan. You probably have wondered what JDM cars are? Or why these cars are popular and if the JDM cars are better than other vehicles. You can post add them here to show off to others.
 
 ### Features:
 
