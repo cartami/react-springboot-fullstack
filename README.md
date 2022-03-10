@@ -2,7 +2,6 @@
 
 # JDM Vehicle Database
 
-inspired by CarMD API\*\*
 
 ---
 
