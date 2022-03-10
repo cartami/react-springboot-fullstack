@@ -14,9 +14,14 @@
 JDM Vehicle database to add all your favorite cars from Japan.
 If you are a car enthusiast, then at some point, you may have come across really cool cars for Japan. You probably have wondered what JDM cars are? Or why these cars are popular and if the JDM cars are better than other vehicles. You can post add them here to show off to others.
 
-### Features:
+### Built With
 
-I used bootstrap library for styling app. 
+
+* [React.js](https://reactjs.org/)
+* [spring-boot](https://spring.io/projects/spring-boot)
+* [Bootstrap](https://getbootstrap.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 # Getting Started with Create React App
 
