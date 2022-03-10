@@ -21,7 +21,7 @@ const AddCar = () => {
             }).catch(error => {
                 console.log(error)
             })
-
+        //if no ID is present we know to make a post request and add to database and give an ID
         }else{
           CarService.addCar(car).then((response) =>{
 

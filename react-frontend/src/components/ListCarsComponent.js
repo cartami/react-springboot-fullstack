@@ -33,7 +33,7 @@ const ListCarsComponent = () => {
 
     return (
         <div className = "container table-responsive">
-            <h2 className = "text-center display-5"> JDM Available Vehicles </h2>
+            <h2 className = "text-center display-5"> JDM Vehicles </h2>
             <p className = "text-center h5"> Japanese domestic market (JDM) refers to Japan's home market for vehicles. 
             Japanese domestic market vehicles may differ greatly from the cars that Japanese manufacturers build for export 
             and vehicles derived from the same platforms built in other countries. The Japanese car owner looks more toward innovation 
@@ -44,7 +44,7 @@ const ListCarsComponent = () => {
             "table table-hover table-secondary table-bordered border-dark align-middle table-striped">
                 <thead class="table-light">
                 <tr>
-                    <th> Car Id </th>
+                    
                     <th> Car Model </th>
                     <th> Car Manufacturer </th>
                     <th> Car picture </th>
@@ -56,7 +56,7 @@ const ListCarsComponent = () => {
                         cars.map(
                             car =>
                             <tr key = {car.id}> 
-                                <td> {car.id} </td>
+                                
                                 <td> {car.model} </td>
                                 <td>{car.manufacturer}</td>
                                 <td>{car.id && <img src={car.picture} 
